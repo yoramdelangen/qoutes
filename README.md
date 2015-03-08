@@ -9,8 +9,11 @@ The recommanded way to install `qoutes` is through composer:
     
 Or add it too the requirements
 
-    "yoramdelangen/qoutes" : "dev-master"
+    "yoramdelangen/heartqoutes" : "dev-master"
     
+For stable version
+    
+    "yoramdelangen/heartqoutes": "1.0.*"
     
 ## Usage
 The following options are implemented and direct from the `iheartqoutes` API:
