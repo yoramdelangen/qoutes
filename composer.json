@@ -1,0 +1,19 @@
+{
+    "name": "yoramdelangen/heartqoutes",
+    "description": "API for getting random qoutes from Heartqoutes",
+    "require": {
+        "guzzlehttp/guzzle": "5.2.0"
+    },
+    "authors": [
+        {
+            "name": "Yoram de Langen",
+            "email": "yoramdelangen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Qoutes\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
