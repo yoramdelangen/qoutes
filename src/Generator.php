@@ -29,6 +29,14 @@ abstract class Generator
      */
     protected $options = [];
 
+    /**
+     * @return array
+     */
+    public function getOptions()
+    {
+        return $this->options;
+    }
+
     public function __construct(array $options = [])
     {
         $this->options = array_merge($this->options, $options);

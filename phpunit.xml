@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpinit bootstrap="./vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Qoute test suite">
+            <directory phpVersion="5.4.0">tests/*Test.php</directory>
+        </testsuite>
+    </testsuites>
+</phpinit>
